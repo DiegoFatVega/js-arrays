@@ -23,7 +23,7 @@ const lastTeacher = teachers[teachers.length-1];
 console.log(lastTeacher);
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
-teachers.splice(0, 0, null)
+teachers.shift();
 const firstTeacher = teachers[0];
 console.log(firstTeacher);
  
